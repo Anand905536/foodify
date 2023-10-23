@@ -8,8 +8,6 @@
 
 -> Error message indicates that you entered a wrong keyword in search box
 
-here is the deployed link 
-()
 
 # Getting Started with Create React App
 
