@@ -1,0 +1,67 @@
+.main-home-container{
+   width:100%;
+   height:500px;
+   background: #0052D4;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #6FB1FC, #4364F7, #0052D4);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #6FB1FC, #4364F7, #0052D4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+display: flex;
+justify-content: space-evenly;
+}
+.tag-line-searchbar{
+    text-align: center;
+    width:1000px;
+   
+   display:flex;
+   flex-direction: column;
+   align-items:center;
+   
+}
+.poster{
+    border-radius: 50%;
+    width:100px;
+    height:100px;
+    margin-left:50px;
+    margin-top: 50px;
+}
+.tag-line{
+    margin-top: 200px;
+    color:azure
+}
+.search-bar{
+    width:500px;
+    height:70px;
+    font-size:20px;
+    text-align: center;
+}
+.button{
+    height:50px;
+    width:140px;
+    font-size: 20px;
+    color: whitesmoke;
+    background-color: black;
+   margin-top: 80px;
+}
+.back-icon{
+    margin-top:20px;
+    margin-left: 20px;
+}
+
+
+/* modile size */
+
+@media screen and (min-width: 400px) and (max-width: 999px) {
+    .main-home-container {
+        min-width: 400px;
+        max-width: 699px;
+        justify-content: center; /* Adjust as needed */
+    }
+    .poster{
+        display: none;
+    }
+    .button{
+        display: none;
+    }
+    .search-bar{
+        width:300px;
+    }
+}
