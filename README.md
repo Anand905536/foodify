@@ -1,3 +1,16 @@
+->  user can search the meals based on ingredients or recipies
+
+->  Added information about a selected recipe, including its title, ingredients, cooking instructions, and an image.
+
+->  created a diffrent page for cuisine detail
+
+->  added a favorite button which takes you to the favorite page , where user's favorite cuisine are listed  
+
+-> Error message indicates that you entered a wrong keyword in search box
+
+here is the deployed link 
+()
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
